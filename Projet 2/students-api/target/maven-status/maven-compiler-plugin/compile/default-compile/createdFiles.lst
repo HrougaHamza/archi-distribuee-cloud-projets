@@ -1,0 +1,6 @@
+com\tp\Main.class
+com\tp\studentsapi\StudentsApiApplication.class
+com\tp\studentsapi\model\Student.class
+com\tp\studentsapi\controller\StudentController.class
+com\tp\studentsapi\controller\GlobalExceptionHandler.class
+com\tp\studentsapi\repository\StudentRepository.class
