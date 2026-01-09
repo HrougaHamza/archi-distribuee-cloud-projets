@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  jade:
+    build: .
+    command: >
+      java -jar app.jar
+      -gui
+      monitor:agents.MonitorAgent;
+      resource1:agents.ResourceAgent
+
+      resource2:agents.ResourceAgent
+      resource3:agents.ResourceAgent
